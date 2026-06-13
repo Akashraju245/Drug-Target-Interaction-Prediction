@@ -1,15 +1,15 @@
 Drug–Target Interaction Predictor
-## Overview:
+Overview:
 This project builds a basic machine learning model to predict drug–target interactions using IC50 bioactivity data. The task is treated as a binary classification problem where interactions are labeled as active or inactive based on a defined threshold.
 
-## Dataset:
+Dataset:
 The dataset (interactions.tsv) contains:
 Ligand SMILES – chemical representation of the drug
 Target Name – protein target
 IC50 (nM) – bioactivity value
 For efficient processing, the first 20,000 rows are used.
 
-## Workflow:
+Workflow:
 1. Data Loading
 Loaded TSV dataset using pandas
 Limited rows for performance
@@ -52,7 +52,7 @@ Precision
 Recall
 F1-score
 
-## Output Files:
+Output Files:
 prediction_results.csv
 Contains predicted and actual interaction labels
 Used to compare model predictions with true values
@@ -61,11 +61,11 @@ Contains accuracy and detailed classification metrics
 Console output
 Displays model performance after training
 
-## Technologies Used:
+Technologies Used:
 Python
 pandas
 NumPy
 scikit-learn
 
-## Project Status
+Project Status:
 This repository provides a computational framework for Drug-Target Interaction prediction and analysis.
